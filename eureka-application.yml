@@ -4,7 +4,7 @@ spring:
     active: dev # 激活开发环境配置
 ---
 server:
-  port: 6868
+  port: 7878
 eureka:
   client:
     registerWithEureka: false # 服务注册开关
@@ -19,7 +19,7 @@ spring:
  
 ---
 server:
-  port: 5858
+  port: 9898
 eureka:
   client:
     registerWithEureka: false # 服务注册开关
