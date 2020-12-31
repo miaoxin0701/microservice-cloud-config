@@ -11,6 +11,9 @@ eureka:
     fetchRegistry: false # 服务发现开关
     service-url:
       defaultZone: http://127.0.0.1:6868/eureka/ #对外暴露的注册地址
+security:
+  basic:
+    enabled: false
 spring:
   profiles: dev # 开发环境
  
@@ -23,6 +26,9 @@ eureka:
     fetchRegistry: false # 服务发现开关
     service-url:
       defaultZone: http://127.0.0.1:6868/eureka/ #对外暴露的注册地址
+security:
+  basic:
+    enabled: false
 spring:
   profiles: port # 生产环境
   
