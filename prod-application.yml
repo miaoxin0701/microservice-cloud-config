@@ -15,7 +15,7 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/springcloud_jingdong?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
     username: root
-    password: root
+    password: 000000
 
 mybatis:
   type-aliases-package: com.wanshi.po
@@ -42,7 +42,7 @@ spring:
     driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/springcloud_jingdong2?serverTimezone=UTC&useUnicode=true&characterEncoding=utf8
     username: root
-    password: root
+    password: 000000
 
 mybatis:
   type-aliases-package: com.wanshi.po
